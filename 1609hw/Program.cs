@@ -14,7 +14,7 @@ int[,] elemarr(int row, int col)
     {
         for (int b = 0; b < col; b++)
         {
-                Console.Write($"Задайте {b + 1}-й элемент {i + 1}-ого столбца массива : ");
+                Console.Write($"Задайте {b + 1}-й элемент {i + 1}-ой строки массива : ");
                 arr[i, b] = Convert.ToInt32(Console.ReadLine());
         }
     }
