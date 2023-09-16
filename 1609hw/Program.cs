@@ -58,7 +58,7 @@ int raspredel(int[,] arr, int row, int col)
     return 0;
 }
 
-int row = vvod("Введите кольчество столбцов массива : ");
+int row = vvod("Введите количество столбцов массива : ");
 int col = vvod("Введите количество строк массива : ");
 
 int[,] arr = elemarr(row, col);
